@@ -7,6 +7,11 @@ namespace Domain.Brands
         public int Id { get; set; }
         public string Name { get; set; } = default!;
 
+        protected Brand()
+        {
+
+        }
+
         public Brand(int id, string name)
         {
             Id = id;
@@ -17,6 +22,7 @@ namespace Domain.Brands
             VerifyMaxLengthName();
         }
 
+        #region DomainVerifications
         private void VerifyNotValidId()
         {
             if (Id <= 0)
@@ -37,5 +43,6 @@ namespace Domain.Brands
             if (Name.Length > 50)
                 throw new MaxLengthNameException();
         }
+        #endregion
     }
 }
