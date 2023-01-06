@@ -4,18 +4,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Shared", "0.Shared", "{C86CB312-25C9-4EEF-90A7-584BD9D376E3}"
+	ProjectSection(SolutionItems) = preProject
+		src\0.Shared\README.md = src\0.Shared\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Domain", "1.Domain", "{4A2A91C8-123D-48B6-926A-CDBBC8A02E15}"
+	ProjectSection(SolutionItems) = preProject
+		src\1.Domain\README.md = src\1.Domain\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F8B5951F-E196-456E-8B19-CA4A3B715BAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{75EF2C65-6455-4996-8F9F-C4D30F8D0D7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Applications", "2.Applications", "{83FF3D57-E54A-4D0F-BB7D-A61D9CB26429}"
+	ProjectSection(SolutionItems) = preProject
+		src\2.Application\README.md = src\2.Application\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infraestructure", "3.Infraestructure", "{01145DF8-E392-410F-9E0D-ECBACD413E3F}"
+	ProjectSection(SolutionItems) = preProject
+		src\3.Infraestructure\README.md = src\3.Infraestructure\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Front", "4.Front", "{1B16FB74-7C17-4520-9672-FAFA3501FE8C}"
+	ProjectSection(SolutionItems) = preProject
+		src\4.Front\README.md = src\4.Front\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{111C5B4B-3827-4045-97F6-A95C9864DD7E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
